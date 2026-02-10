@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+   <h2>contact form</h2>
+   <hr/>
+
+   <form  >
+
+    <fieldset>
+         <legend>contact information</legend>
+       <label for="fullname">Full name</label>
+       <input aria-rowcount="2" type="text" name="fullname" id="fullname">
+        <br>
+        <br>
+       <label for="email">Email </label>
+       <input type="email" name="email" id="email">
+        <br>
+        <br>
+       <label for="phone-number">Phone number</label>
+       <input type="tel"  name="phone-number" id="phone-number">
+
+    </fieldset>
+
+    <br>
+    <br>
+    <br>
+
+
+    <fieldset>
+        <legend>message</legend>
+        <label for="message">Message</label>
+        <br>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+    </fieldset>
+
+    <br>
+    <br>
+    <br>
+
+    <fieldset>
+        <legend>educational details</legend>
+        <label for="education">Education</label>
+        <select name="education" id="education">
+            <option value="high-school">high school</option>
+            <option value="bachelor">bachelor</option>
+            <option value="master">master</option>
+            <option value="phd">phd</option>
+        </select>
+        <br>
+        <br>
+        <label for="file">upload your resume</label>
+        <input type="file" accept=".pdf" name="file" id="file">
+    </fieldset>
+
+
+       <input type="button" value="submit">
+       
+
+
+   </form>
+
+
+</body>
+</html>
