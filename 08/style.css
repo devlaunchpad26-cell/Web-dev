@@ -1,0 +1,95 @@
+/* .box{
+    height: 100px;
+    width: 100px;
+    
+    animation: changecolor 5s linear infinite;
+}
+
+
+
+@keyframes changecolor{
+        0%{
+            background-color: red;
+        }
+        50%{
+            background-color: yellow;
+        }
+        100% {
+            background-color:blue;
+        }
+}
+ */
+
+
+
+ .main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+
+
+ }
+
+
+ @media (max-width : 500px){
+    .main{
+        flex-direction: column;
+    }
+ }
+
+ /* .box:hover{
+    background-color:  yellow;
+ } */
+
+/* .box{
+
+    width: 200px;
+    height: 200px;
+    transform: translateY(200px);
+    background-color: yellow;
+    border-radius: 50%; 
+    /* animation: bounce 2s ease-in-out infinite; */
+    
+    /* border-top: 4px dotted blue ;
+    animation: loading 4s 4s linear infinite;
+}
+    
+    /* animation : animation-name duration delay easing repeat */
+
+ 
+
+ /* @keyframes loading {
+    100%{
+        transform: rotate(360deg) ;
+    }
+ } */
+
+
+ .box{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+ }
+@keyframes bounce {
+    0%{
+        transform: translateY(0px);
+    }
+   
+    50%{
+        transform: translateY(200px);
+    }
+   
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+
+
+
+
