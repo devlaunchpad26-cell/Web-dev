@@ -89,4 +89,6 @@ let a = "hello"
 
 
 // wap using array to check prime numbers in it ;
-// return array of prime numbers in string format -- ["3", "5"]
+// return array of prime numbers in string format -- ["3", "5"];
+
+
