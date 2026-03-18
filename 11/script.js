@@ -22,30 +22,30 @@
 
 // wap using function to print full name by using first name and last name as arguments 
 
-// function fullname(first_name , last_name){
-//     console.log(first_name + " " + last_name);
-// }
+function fullname(first_name , last_name){
+    console.log(first_name + " " + last_name);
+}
 
-// fullname("shivdip","sadar")
+fullname("shivdip","sadar")
 
 
-// const  greet =  function (){
-//     console.log("hello")
-// }
+const  greet =  function (){
+    console.log("hello")
+}
 
-// greet();
+greet();
 
-// function sum(a,b){
-//     console.log(a+b);
-// }
+function sum(a,b){
+    console.log(a+b);
+}
 
-// const sum  = (a,b,c=4)=>{
-//         return a+b+c;
+const sum  = (a,b,c=4)=>{
+        return a+b+c;
 
-// }
+}
 
-// let addition = sum(3,5,2);
-// console.log(addition)
+let addition = sum(3,5,2);
+console.log(addition)
 
 
 
